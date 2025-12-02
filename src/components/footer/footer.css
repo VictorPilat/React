@@ -1,0 +1,46 @@
+.App-footer {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 3vw;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.footer-links {
+    flex: 1;
+    display: flex;
+    gap: 1vw;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vh;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.footer-copyright {
+    text-align: right;
+    flex: 1;
+    font-size: 1vh;
+    white-space: nowrap;
+    flex-shrink: 0;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

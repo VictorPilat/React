@@ -1,5 +1,6 @@
-import { PostCardProps } from './types';
-import "./post.modules.css";
+// import { PostCardProps } from '././types';
+import { PostCardProps } from "../types";
+import "../post.modules.css";
 
 
 

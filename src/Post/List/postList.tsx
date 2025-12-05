@@ -1,5 +1,6 @@
-import { PostCard } from "./PostCard"
-import cat from './img/cat.png';
+// import { PostCard } from "./PostCard"
+import { PostCard } from '../Card/PostCard';
+import cat from '../img/cat.png';
 
 export function PostList() {
     const posts = [

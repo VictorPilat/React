@@ -1,21 +1,21 @@
-import "./header.css";
+import styles from  "./header.module.css";
 
 import avatar from '../../img/avatar.png';
 
 
 export function Header() {
-    return <header className="App-header">
-                <div className="header-content">
-                    <div className="but">
-                        <button className="login-button">login</button>
+    return <header className={styles["App-header"]}>
+                <div className={styles["header-content"]}>
+                    <div className={styles["but"]}>
+                        <button className={styles["login-button"]}>login</button>
                     </div>
-                    <div className="links">
-                        <a href="" className="link">home</a>
-                        <a href="" className="link">posts</a>
-                        <a href="" className="link">contacts</a>
+                    <div className={styles["links"]}>
+                        <a href="" className={styles["link"]}>home</a>
+                        <a href="" className={styles["link"]}>posts</a>
+                        <a href="" className={styles["link"]}>contacts</a>
                     </div>
-                    <div className="avatar">
-                        <img src={avatar} className="avatar-image" />
+                    <div className={styles["avatar"]}>
+                        <img src={avatar} className={styles["avatar-image"]} />
                     </div>
                 </div>
             </header>

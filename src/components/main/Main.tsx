@@ -1,4 +1,4 @@
-import "./main.css"
+import styles from  "./main.module.css";
 import { ReactNode } from "react"
 
 interface MainProps {
@@ -8,8 +8,8 @@ interface MainProps {
 export function Main(props: MainProps) {
     const {children} = props
     
-    return <main className="main">
-    <div className="content">
+    return <main className={styles["main"]}>
+    <div className={styles["content"]}>
         {children}
     </div>
 </main>

@@ -1,6 +1,8 @@
 // import { PostCard } from "./PostCard"
 import { PostCard } from '../Card/PostCard';
 import cat from '../img/cat.png';
+import styles from  "./PostList.module.css";
+
 
 export function PostList() {
     const posts = [
@@ -27,14 +29,14 @@ export function PostList() {
         },
     ]
     
-    return <div className="content">
-        <div className="left">
+    return <div className={styles["content"]}>
+        <div className={styles["left"]}>
             <p>Filters</p>
-            <input className="search-input" placeholder="Search..." />
+            <input className={styles["search-input"]} placeholder="Search..." />
             
-            <div className="tag-category">
+            <div className={styles["tag-category"]}>
                 <p>Tags</p>
-                <div className="tag">
+                <div className={styles["tag"]}>
                     <label><input type="radio" name="tags" /> Food</label>
                     <label><input type="radio" name="tags" /> Technique</label>
                     <label><input type="radio" name="tags" /> Travel</label>
@@ -43,9 +45,9 @@ export function PostList() {
                 </div>
             </div>
             
-            <div className="likes-category">
+            <div className={styles["likes-category"]}>
                 <p>Likes</p>
-                <div className="likes">
+                <div className={styles["likes"]}>
                     <label><input type="radio" name="likes" /> Less than 0</label>
                     <label><input type="radio" name="likes" /> More than 0</label>
                     <label><input type="radio" name="likes" /> More than 50</label>
@@ -54,7 +56,7 @@ export function PostList() {
             </div>
         </div>
         
-        <div className="right">
+        <div className={styles["right"]}>
             {posts.map(post => 
                 <PostCard 
                     title={post.title}

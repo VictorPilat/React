@@ -1,6 +1,7 @@
 import styles from  "./header.module.css";
 
 import avatar from '../../img/avatar.png';
+import { Link } from "react-router-dom";
 
 
 export function Header() {
@@ -10,9 +11,9 @@ export function Header() {
                         <button className={styles["login-button"]}>login</button>
                     </div>
                     <div className={styles["links"]}>
-                        <a href="" className={styles["link"]}>home</a>
-                        <a href="" className={styles["link"]}>posts</a>
-                        <a href="" className={styles["link"]}>contacts</a>
+                        <Link className={styles["link"]} to="/">home</Link>
+                        <Link className={styles["link"]} to="/posts">posts</Link>
+                        <Link className={styles["link"]} to="/contacts">contacts</Link>
                     </div>
                     <div className={styles["avatar"]}>
                         <img src={avatar} className={styles["avatar-image"]} />

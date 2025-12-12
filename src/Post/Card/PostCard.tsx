@@ -1,7 +1,7 @@
 // import { PostCardProps } from '././types';
-import { PostCardProps } from "../types";
+import { PostCardProps } from "../types"
 // import "../post.modules.css";
-import styles from  "./postCard.module.css";
+import styles from  "./postCard.module.css"
 
 
 export function PostCard(props: PostCardProps) {

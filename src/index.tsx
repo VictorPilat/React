@@ -1,8 +1,8 @@
 
 import { createRoot } from "react-dom/client"
-import { App} from "./App"
-import { PostsPage } from "./Post/post.app"
-import { HomePage } from "./Home/home.app"
+import { App} from "./app/App"
+import { PostsPage } from "./pages/Post/post.app"
+import { HomePage } from "./pages/Home/home.app"
 // 1. Находим корневой HTML-элемент на странице.
 // В стандартном файле public/index.html обычно есть пустой <div> с id="root".
 // Именно в этот div React будет "встраивать" всё наше приложение.

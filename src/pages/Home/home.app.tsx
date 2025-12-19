@@ -1,7 +1,7 @@
-import avatar from './img/avatar.png';
-import { Footer } from '../components/footer/Footer'
-import { Header } from '../components/heder/Header'
-import { Main } from '../components/main/Main'
+// import avatar from './img/avatar.png';
+import { Footer } from '../../app/footer/Footer'
+import { Header } from '../../app/heder/Header'
+import { Main } from '../../app/main/Main'
 import styles from  "./home.module.css"
 
 export function HomePage() {

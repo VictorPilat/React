@@ -1,6 +1,7 @@
 // import { PostCardProps } from '././types';
-import { PostCardProps } from "../types"
+// import { PostCardProps } from "../../components/post/types/types"
 // import "../post.modules.css";
+import { PostCardProps } from "../../../../shared/types/types"
 import styles from  "./postCard.module.css"
 
 

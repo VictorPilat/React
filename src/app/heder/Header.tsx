@@ -1,6 +1,6 @@
 import styles from  "./header.module.css";
-
-import avatar from '../../img/avatar.png';
+import {  IMAGES } from '../../shared'
+// import avatar from '../../img/avatar.png';
 import { Link } from "react-router-dom";
 
 
@@ -16,7 +16,7 @@ export function Header() {
                         <Link className={styles["link"]} to="/contacts">contacts</Link>
                     </div>
                     <div className={styles["avatar"]}>
-                        <img src={avatar} className={styles["avatar-image"]} />
+                        <img src={IMAGES.avatar} className={styles["avatar-image"]} />
                     </div>
                 </div>
             </header>

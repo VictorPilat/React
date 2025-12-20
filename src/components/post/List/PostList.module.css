@@ -1,90 +1,4 @@
-.PostsPage {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
-html, body, #root {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-#root {
-    display: flex;
-    flex-direction: column;
-}
-
-.content {
-    display: flex;
-    gap: 25px;
-    padding: 20px;
-    flex: 1;
-}
-
-.left {
-    width: 280px;
-    background: #fff;
-    padding: 15px 21px;
-    border-radius: 12px;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex-shrink: 0;
-}
-
-.left > p {
-    text-align: center;
-    font-size: 22px;
-    margin: 0 0 15px;
-    font-weight: 600;
-}
-
-.search-input {
-    width: 100%;
-    height: 35px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    font-size: 15px;
-    padding: 0 12px;
-    box-sizing: border-box;
-}
-
-.tag-category p,
-.likes-category p {
-    font-size: 20px;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-.tag-category,
-.likes-category {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.tag,
-.likes {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.tag label,
-.likes label {
-    font-size: 15px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
 
 .right {
     flex: 1;
@@ -94,30 +8,12 @@ body {
 }
 
 @media (max-width: 1024px) {
-    .content {
-        flex-direction: column;
-    }
-
-    .left {
-        width: 100%;
-    }
-
     .right {
         width: 100%;
     }
 }
 
 @media (max-width: 900px) {
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
 
     .right {
         width: 100%;
@@ -128,14 +24,7 @@ body {
 }
 
 @media (max-width: 600px) {
-    .content {
-        padding: 10px;
-    }
-    
-    .left {
-        width: 100%;
-    }
-    
+
     .right {
         gap: 15px;
     }

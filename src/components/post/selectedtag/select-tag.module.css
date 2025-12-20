@@ -1,0 +1,17 @@
+
+
+.tag{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tag label {
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
